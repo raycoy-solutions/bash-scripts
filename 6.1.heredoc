@@ -1,0 +1,7 @@
+
+cat > newfile << EOF
+You are 
+not going
+to see
+this!
+EOF
