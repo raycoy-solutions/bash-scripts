@@ -1,6 +1,6 @@
 #!/bin/bash
 
-which tree
+which tree > /dev/null
 if [[ $? -eq 0 ]]
 then 
     echo "tree is installed"
