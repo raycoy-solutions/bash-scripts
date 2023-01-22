@@ -38,3 +38,7 @@ echo "########################################"
 echo "Remove temporary files"
 echo "########################################"
 rm -rf $TEMPDIR
+
+# You can subsitute these values as $1 and $2 to deploy your website
+# $1 = https://www.tooplate.com/zip-templates/2109_the_card.zip
+# $2 = 2109_the_card

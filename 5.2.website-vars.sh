@@ -10,7 +10,7 @@ TEMPDIR="/tmp/webfiles"
 echo "########################################"
 echo "Installing Packages"
 echo "########################################"
-sudo yum install $PACKAGE -y > /dev/null
+sudo yum install $PACKAGE -y > /dev/null # We use /dev/null to discard our outputs
 echo
 
 echo "########################################"
@@ -23,7 +23,7 @@ echo
 echo "########################################"
 echo "Start Deployment"
 echo "########################################"
-wget $URL > /dev/null
+wget $URL 
 unzip $ARTIFACT.zip > /dev/null
 cd $ARTIFACT
 sudo cp -r * /var/www/html/
