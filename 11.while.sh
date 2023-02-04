@@ -7,5 +7,6 @@ do
 done
 
 echo "The directory no longer exists"
+echo
 
 
